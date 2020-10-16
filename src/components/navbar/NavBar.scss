@@ -1,0 +1,31 @@
+.navbar {
+  height: 60px;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  transition: top 0.3s linear 0.3s;
+  background-color: white;
+}
+
+.navbar-brand {
+  height: 70px;
+  width: 70px;
+  .logo {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.nav-item {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  margin-left: 30px;
+  border-bottom: 2px solid transparent;
+  &:hover {
+    border-bottom: 2px solid chocolate;
+    color: black;
+  }
+}
